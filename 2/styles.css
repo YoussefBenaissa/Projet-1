@@ -1,0 +1,18 @@
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: rgb(236, 47, 47);
+  border:  1px solid green;
+}
+
+.centerdiv {
+  margin-left: 30em;
+  margin-right: 40em;
+  background-color: bisque;
+  height: 35em;
+}

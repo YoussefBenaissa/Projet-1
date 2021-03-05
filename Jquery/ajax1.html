@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Ajax</title>
+  </head>
+  <body>
+    <br />
+
+    <button type="button" onclick="requete()" class="btn btn-primary">
+      Primary
+    </button>
+
+    <table class="table table-dark w-25">
+      <thead></thead>
+    </table>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+    <script>
+      function requete() {
+        let request = $.ajax({
+          url: "https://jsonplaceholder.typicode.com/posts/",
+          method: "GET", // plausier method existe post put patch delete //
+
+          dataType: "json", // type de donnes que l'on va retourner //
+        });
+
+        request.done(function (response) {
+          // ce que l'on va traiter qd les donner seront retourné corectement . ici on fait le traitement en jquery//
+
+          tab1 = [];
+          $.each(response, function () {
+            tab1.push(this.userId);
+          });
+          let tab = Array.from(new Set(tab1)); // trouver sur internet revoir sur: https://www.1formatik.com/3590/comment-supprimer-les-doublons-dun-tableau-en-javascript//
+          for (i = 0; i < tab.length; i++) {
+            $(".table ").append("<tr><th>" + tab[i] + "</th><</tr>");
+          }
+
+          //  on peutfaire une fontion externe qui reprend cette boucle //
+        });
+
+        request.fail(function (http_error) {
+          //Code à jouer en cas d'éxécution en erreur du script du PHP
+
+          let server_msg = http_error.responseText;
+          let code = http_error.status;
+          let code_label = http_error.statusText;
+          alert("Erreur " + code + " (" + code_label + ") : " + server_msg);
+        });
+        /*request.always(function () {
+          //code a jouer apres done OU fail dans tous les cas
+        });*/
+      }
+    </script>
+  </body>
+</html>

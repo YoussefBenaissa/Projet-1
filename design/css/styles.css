@@ -1,0 +1,55 @@
+title {
+  background-image: url(../images/unnamed.jpg);
+}
+p {
+  margin: 25px 50px 75px 100px;
+  padding: 10px;
+  background: #fa09dc;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+
+  border-radius: 8px;
+  border: solid rgb(5, 9, 231);
+  opacity: 0.75;
+}
+#p3 {
+  color: green;
+  background-color: rgb(234, 250, 4);
+
+  border-radius: 8px;
+  border: solid rgb(234, 250, 4);
+}
+.p_bleu {
+  background-color: rgba(238, 241, 10, 0.75);
+  opacity: 0.8;
+  border: rgb(22, 6, 240) 3px;
+  border-radius: 8px;
+  border: solid rgb(238, 7, 207);
+}
+img {
+  border: 3px solid rgb(120, 243, 5);
+  width: 200px;
+  height: 200px;
+}
+.container {
+  width: 20em;
+  text-align: left;
+  background-image: url(../images/unnamed.jpg);
+  opacity: 0.8;
+
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 5em;
+  margin-right: 5em;
+
+  background-repeat: no-repeat;
+
+  background-position: bottom right;
+}
+h1,
+h2 {
+  color: white;
+  text-decoration: underline blue;
+  text-shadow: 2px 2px;
+  font-size: 60px;
+}

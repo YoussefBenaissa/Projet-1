@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <title>JQuery</title>
+  </head>
+  <body>
+    <header>
+      <div class="row mr-0">
+        <div class="container-fluid bg-primary text-center">
+          <h1 onclick="clikh1()"><i class="fas fa-ad"></i> Hello, world!</h1>
+          <p class="onclick">salut la teammmmmmmm</p>
+        </div>
+        <ul>
+          <li>coffee</li>
+          <li class="cacher">tea</li>
+          <li>milk</li>
+        </ul>
+        <div>
+          <button
+            onclick="clickbutton()"
+            type="button"
+            class="btn btn-primary mt-3 ml-2 clickbutton"
+          >
+            click
+          </button>
+        </div>
+        <div>
+          <button
+            onclick="cacherli()"
+            type="button"
+            class="btn btn-success mt-3 ml-2 clickbutton"
+          >
+            click 2
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div id="flip">Choose</div>
+        <div id="panel" class="text-left">
+          <div class="row">
+            <ul class="col-3">
+              <li><input type="number" />Farine(en g)</li>
+              <li>tea</li>
+              <li>tea</li>
+            </ul>
+            <ul class="col-3">
+              <li>coffee</li>
+              <li>tea</li>
+              <li>tea</li>
+            </ul>
+            <ul class="col-3">
+              <li>coffee</li>
+              <li>tea</li>
+              <li>tea</li>
+            </ul>
+            <ul class="col-3">
+              <li>coffee</li>
+              <li>tea</li>
+              <li>tea</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div>
+      <a
+        type="button"
+        class="btn btn-success mt-3 ml-2 clickbutton abc"
+        target="_BLANK"
+        href="https://www.google.com/webhp?hl=fr&sa=X&ved=0ahUKEwjo2_Kt0fXuAhUpxYUKHbDvAVIQPAgI"
+      >
+        Road to google
+      </a>
+      <a
+        type="button"
+        class="btn btn-danger mt-3 ml-2 clickbutton abc"
+        target="_BLANK"
+        href="https://www.microsoft.com/fr-fr"
+      >
+        Road to Microsoft
+      </a>
+      <a
+        type="button"
+        class="btn btn-primary mt-3 ml-2 clickbutton abc"
+        target="_BLANK"
+        href="https://www.apple.com/fr/?afid=p238%7Cs05EVyND6-dc_mtid_187079nc38483_pcrid_487299106259_pgrid_16898309484_&cid=aos-fr-kwgo-brand--slid--bran-product-"
+      >
+        Road to Apple
+      </a>
+      <a
+        type="button"
+        class="btn btn-secondary mt-3 ml-2 clickbutton abc"
+        target="_BLANK"
+        href="https://www.samsung.com/fr/"
+      >
+        Road to Samsung
+      </a>
+    </div>
+    <div>
+      <a
+        type="button"
+        id="change"
+        class="btn btn-secondary mt-3 ml-2 clickbutton"
+        >Change le lien</a
+      >
+      <button
+        type="button"
+        class="btn btn-warning myPopover"
+        id="popo"
+        title=" POPOVER"
+        data-toggle="popover"
+        data-placement="right"
+        data-content="salut"
+      >
+        Popover
+      </button>
+      <a type="button" id="change2" class="btn btn-dark mt-3 ml-2 clickbutton"
+        >Change le popover</a
+      >
+    </div>
+    <div class="ml-5 mt-5">
+      <table class="table col-md-1 table-secondary">
+        <tr>
+          <th>Etudiant</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td>Youssef</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Mohamed</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Pierre</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>Bertrand</td>
+          <td>8</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container images">
+      <div class="row">
+        <img id="bigimg" src="images/images.jpj.png" />
+        <p id="pbigimg" class="col-2">
+          Counter-Strike: Global Offensive (abrégé CS:GO) est un jeu de tir à la
+          première personne multijoueur en ligne basé sur le jeu d'équipe
+          développé par Valve Corporation. Il est sorti le 21 août 2012 sur PC
+          et consoles (Xbox 360, PlayStation 3)1. En 2017, Microsoft annonce que
+          le jeu sur Xbox 360 sera compatible avec la Xbox One. Depuis le 6
+          décembre 2018, le jeu est disponible gratuitement en free-to-play2.
+        </p>
+      </div>
+      <div class="row abc">
+        <img src="images/2.jpj.jfif" />
+        <p>
+          Counter-Strike: Global Offensive (abrégé CS:GO) est un jeu de tir à la
+          première personne multijoueur en ligne basé sur le jeu d'équipe
+          développé par Valve Corporation. Il est sorti le 21 août 2012 sur PC
+          et consoles (Xbox 360, PlayStation 3)1. En 2017, Microsoft annonce que
+          le jeu sur Xbox 360 sera compatible avec la Xbox One. Depuis le 6
+          décembre 2018, le jeu est disponible gratuitement en free-to-play2.
+        </p>
+        <img src="images/images.jpj.png " />
+        <p>
+          Counter-Strike: Global Offensive (abrégé CS:GO) est un jeu de tir à la
+          première personne multijoueur en ligne basé sur le jeu d'équipe
+          développé par Valve Corporation. Il est sorti le 21 août 2012 sur PC
+        </p>
+        <img src="images/CSGO-Banner-24-3-2019.jpg" />
+        <p>
+          C et consoles (Xbox 360, PlayStation 3)1. En 2017, Microsoft annonce
+          que le jeu sur Xbox 360 sera compatible avec la Xbox One. Depuis le 6
+          décembre 2018, le jeu est disponible gratuitement en free-to-play2.
+        </p>
+        <img src="images/images.jpj.png " />
+        <p>
+          Counter-Strike: Global Offensive (abrégé CS:GO) est un jeu de tir à la
+          première personne multijoueur en ligne basé sur le jeu d'équipe
+          ghfgjhgfjfgjgfjfgfj le jeu sur Xbox 360 sera compatible avec la Xbox
+          One. Depuis le 6 décembre 2018, le jeu est disponible gratuitement en
+          free-to-play2.
+        </p>
+      </div>
+    </div>
+
+    <form class="container mt-10">
+      <div class="col-12 bg-warning mt-5">
+        <div>
+          <br />
+          <input
+            type="text"
+            id="y"
+            class="form-control"
+            placeholder="Produit :"
+          />
+        </div>
+        <div class="mt-2">
+          <input
+            type="text"
+            id="o"
+            class="form-control"
+            placeholder="Marque :"
+          />
+        </div>
+        <div class="mt-3">
+          <input
+            type="text"
+            id="u"
+            class="form-control"
+            placeholder="Modele :"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Specialisation : </label>
+          <textarea class="form-control" id="s" rows="3"></textarea>
+        </div>
+        <br />
+        <button type="button" class="btn btn-success">Generer</button>
+        <button type="reset" value="reset" class="btn btn-danger">
+          Reinitialiser
+        </button>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Liste :</label>
+          <textarea class="form-control" id="liste" rows="3"></textarea>
+          <br />
+        </div>
+      </div>
+    </form>
+    <div class="container mt-10 bg-light">
+      <h1 class="text-center">AFPA Eats</h1>
+      <div><h3>Commande</h3></div>
+      <div>
+        Sélection du Produit :
+
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Choisi ton produit</option>
+          <option id="sand" value="Sandwich" cible="test">Sandwich</option>
+          <option id="piz" value="Pizza">Pizza</option>
+          <option id="bur" value="Burger">Burger</option>
+        </select>
+
+        <div id="choixsand" class="jkl Sandwich">
+          <h4>Selectionez les crudites svp :</h4>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="Tomates" />
+            <label class="form-check-label" id="tom" for="inlineCheckbox1"
+              >Tomates</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="Salade" />
+            <label class="form-check-label" id="sal" for="inlineCheckbox1"
+              >Salade</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="Ognion" />
+            <label class="form-check-label" id="og" for="inlineCheckbox1"
+              >Ognion</label
+            >
+          </div>
+        </div>
+        <div id="choixpizza" class="jkl Pizza">
+          <h4>Faites votre choix svp :</h4>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input radio1"
+              type="radio"
+              name="inlineRadioOptions"
+              value="Oriental"
+            />
+            <label class="form-check-label" for="inlineRadio1">Oriental</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input radio1"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="Napolitaine"
+            />
+            <label class="form-check-label" for="inlineRadio1"
+              >Napolitaine</label
+            >
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input radio1"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="4fromages"
+            />
+            <label class="form-check-label" for="inlineRadio1"
+              >4 Fromages</label
+            >
+          </div>
+        </div>
+        <div id="choixburger" class="jkl Burger">
+          <h4>Quels taille svp:</h4>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input radio2"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="M"
+            />
+            <label class="form-check-label" for="inlineRadio1">M</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input radio2"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="M"
+            />
+            <label class="form-check-label" for="inlineRadio1">L</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input radio2"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="XL (pas pour les petits joueurs)"
+            />
+            <label class="form-check-label radio2" for="inlineRadio1"
+              >XL (pas pour les petits joueurs)</label
+            >
+          </div>
+        </div>
+        <div id="quantite">
+          <h4>Quantite:</h4>
+          <input type="number" id="typenumber" min="0" max="10" />
+          <button type="button" id="btnquant" class="btn btn-success ml-3">
+            validez
+          </button>
+        </div>
+        <div id="textera">
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"
+              >Détails de la commande:
+            </label>
+            <textarea
+              class="form-control"
+              id="detailscommande"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="demo">
+      02
+      <div u="slides">
+        03
+        <div><img u="image" src="01.jpg" /></div>
+        04
+        <div><img u="image" src="02.jpg" /></div>
+        05
+        <div><img u="image" src="03.jpg" /></div>
+        06
+        <div><img u="image" src="04.jpg" /></div>
+        07
+        <div><img u="image" src="05.jpg" /></div>
+        08
+        <div><img u="image" src="06.jpg" /></div>
+        09
+        <div><img u="image" src="07.jpg" /></div>
+        10
+        <div><img u="image" src="08.jpg" /></div>
+        11
+      </div>
+      12
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/myscript.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/jssor.slider.mini.js"></script>
+
+    <script>
+      let note;
+      $("td:last-child").each(function () {
+        let note = $(this).text();
+        classeNote = getClass(note); // je pourrais ici enlever cette variable est mettre directement getclass(note) dans ma fonction hmtl//
+        $(this).html(
+          '<button  type="button"class="btn btn-' +
+            getClass(note) +
+            '">' +
+            note +
+            "</button>" //faire attention au + //
+        ); // fonction html permet de mettre a jour les elements html cette fo,ction est importante a revoir//
+      });
+      /*la fonction each fonctionne comme une boucle for */
+
+      function getClass(note) {
+        switch (true) {
+          case note < 10:
+            return "danger";
+          case note <= 15:
+            return "info";
+          default:
+            return "success";
+        }
+      }
+
+      $("#flip").click(function () {
+        $("#panel").slideToggle("slow");
+      });
+
+      $("#change").click(function () {
+        $(".abc")
+          .attr({
+            href: "https://www.w3schools.com/jquery/jquery_dom_set.asp",
+          })
+          .text(" Road to w3shools");
+      });
+
+      $(function () {
+        $(".myPopover").popover();
+      });
+
+      $("#change2").click(function () {
+        $("#popo").attr({
+          "data-content": "tu as changé le msg",
+        });
+      });
+
+      /* boucle each : cela fontionne comme une boucle for*/
+
+      function clikh1() {
+        $("h1").hide();
+      }
+
+      function clickbutton() {
+        $("ul li:first-child").hide();
+      }
+
+      function cacherli() {
+        $(".cacher").hide();
+      }
+
+      $(".images img").click(function () {
+        let x = $(this).attr("src");
+        $("#bigimg").attr({
+          src: x,
+        });
+        $("#pbigimg").text($(this).next().text());
+      });
+
+      $("form button:first").click(function () {
+        $("#liste").val(
+          $("#y").val() +
+            " " +
+            $("#o").val() +
+            "\n" +
+            $("#y").val() +
+            " " +
+            $("#u").val() +
+            "\n" +
+            $("#o").val() +
+            " " +
+            $("#u").val() +
+            "\n" +
+            $("#u").val() +
+            " " +
+            $("#s").val()
+        );
+        console.log(y);
+      });
+
+      $("select").change(function () {
+        //revoir l'evenment change//
+        let produit = $(this).val();
+
+        $(".jkl").hide();
+
+        $("." + produit).show();
+
+        $("#detailscommande").val(produit);
+        $(":checkbox").click(function () {
+          let tab = [];
+          $(":checkbox" + ":checked").each(function () {
+            let x = $(this).val();
+            tab.push(x);
+            console.log(tab);
+            $("#btnquant").click(function () {
+              let quantite = $("#typenumber").val();
+              console.log(quantite);
+              $("#detailscommande").val(quantite + " " + produit + " " + tab);
+            });
+
+            $("#detailscommande").val(produit + " " + tab);
+          });
+        });
+        $(".radio1").click(function () {
+          let choixpiz = $(this).val();
+          $("#btnquant").click(function () {
+            let quantite = $("#typenumber").val();
+            console.log(quantite);
+            $("#detailscommande").val(
+              quantite + " " + produit + " " + choixpiz
+            );
+          });
+          $("#detailscommande").val(produit + " " + choixpiz);
+        });
+        $(".radio2").click(function () {
+          let choixburger = $(this).val();
+          $("#btnquant").click(function () {
+            let quantite = $("#typenumber").val();
+            console.log(quantite);
+            $("#detailscommande").val(
+              quantite + " " + produit + " " + choixburger
+            );
+          });
+          $("#detailscommande").val(produit + " " + choixburger);
+        });
+      });
+    </script>
+    
+  </body>
+</html>

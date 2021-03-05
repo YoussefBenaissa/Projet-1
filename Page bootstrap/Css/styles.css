@@ -1,0 +1,28 @@
+.container-fluid {
+  
+  text-align: center;
+}
+.col-sm-1 {
+  background-color: tomato;
+}
+.col-sm-10 {
+  background-color: rgb(11, 245, 245);
+}
+#box1 {
+  justify-content: space-between;
+}
+#box2 {
+  justify-content: space-between;
+}
+#box3 {
+  justify-content: space-between;
+}
+.border {
+  border: solid black 3px;
+}
+#p1 {
+  text-align: center;
+}
+#p2 {
+  text-align: center;
+}

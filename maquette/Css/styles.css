@@ -1,0 +1,99 @@
+body {
+  background-color: #ffffff;
+}
+
+.backg {
+  background-image: url(../image/maquette22.png);
+  background-repeat: no-repeat;
+
+  height: 80px;
+  width: 80%;
+
+  margin-left: 100px;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #a7daf3;
+  color: white;
+}
+#boots {
+  background-image: url(../image/maquette\ 1.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 87%;
+  margin-left: 10%;
+  background-size: contain;
+}
+#left {
+  margin-left: 15%;
+}
+.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+.container {
+  justify-content: space-between;
+}
+.col_content {
+  width: 50%;
+}
+
+.hauteur_col {
+  border: 3px solid black;
+}
+.container {
+  background-color: #ffffff;
+}
+footer {
+  min-height: 60px;
+}
+
+.card {
+  background-color: #55b0d6;
+}
+.bgi {
+  background-color: #55b0d6;
+}
+#photo_bas {
+  background-image: url(../image/maquette3.png);
+  height: 80px;
+  width: 80.6%;
+  background-size: contain;
+  margin-left: 160px;
+}
+h2 {
+  text-align: left;
+}
+#con2 {
+  background-color: rgb(143, 137, 137);
+  justify-content: center;
+}
+.iconecenter {
+  height: 65px;
+  text-align: center;
+}
+.border2 {
+  border: solid black 1px;
+  height: 20px;
+  width: 20px;
+  background-color: #55b0d6;
+}

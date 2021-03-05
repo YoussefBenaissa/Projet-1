@@ -1,0 +1,79 @@
+.header {
+  text-align: center;
+  background-color: chartreuse;
+  border: black solid;
+}
+.display {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 1000px;
+  justify-content: space-between;
+}
+.aside1 {
+  background-color: crimson;
+  border: solid black;
+
+  width: 20%;
+}
+.aside2 {
+  background-color: crimson;
+  border: solid black;
+
+  width: 20%;
+}
+.floater {
+  width: 100%;
+  border: black solid;
+  text-align: center;
+  background-color: chartreuse;
+}
+.img {
+  height: 150px;
+  width: 150px;
+  border: solid black 1px;
+}
+#p1 {
+  margin-left: 20vh;
+  border: black solid 1px;
+  height: 110px;
+}
+p {
+  text-align: center;
+}
+#img2 {
+  margin-left: 15vh;
+}
+.flexbox1 {
+  border: solid black 2px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+
+  background-color: burlywood;
+  height: 100%;
+}
+.box1 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+.box2 {
+  width: 100%;
+  border-top: solid black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#p2 {
+  margin-left: 20vh;
+  border: black solid 1px;
+  height: auto;
+}
+.box3 {
+  border-top: solid black;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
